@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="286" viewBox="0 0 1120 286" role="img" aria-labelledby="title desc">
+  <title id="title">DOU SE Projects</title>
+  <desc id="desc">Birlikte geliştiriyoruz. Sağda dallanan bir Git geçmişi çizimi.</desc>
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#111b2d"/>
+      <stop offset="1" stop-color="#102f38"/>
+    </linearGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#b5e7e6" opacity=".22"/>
+    </pattern>
+    <clipPath id="bounds"><rect width="1120" height="286" rx="24"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#bounds)">
+    <rect width="1120" height="286" fill="url(#back)"/>
+    <rect x="676" width="444" height="286" fill="url(#grid)"/>
+    <path d="M1 26V1h25m1068 284h25v-25" fill="none" stroke="#5eead4" stroke-width="3" opacity=".7"/>
+
+    <rect x="48" y="48" width="50" height="50" rx="12" fill="#5eead4"/>
+    <path d="m65 66-7 7 7 7m16-14 7 7-7 7m-6-18-4 22" fill="none" stroke="#10212d" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="116" y="79" fill="#a8f6e9" font-family="Consolas, monospace" font-size="21" font-weight="700" letter-spacing="2">DOU / SE PROJECTS</text>
+    <text x="46" y="168" fill="#f4fbff" font-family="Segoe UI, Arial, sans-serif" font-size="53" font-weight="700">Birlikte geliştiriyoruz.</text>
+    <text x="50" y="215" fill="#c5d9e4" font-family="Segoe UI, Arial, sans-serif" font-size="22">Bir fikirle başla. Kodu yaz. Öğrendiğini paylaş.</text>
+
+    <rect x="714" y="48" width="348" height="190" rx="16" fill="#101e2c" stroke="#3e6875"/>
+    <path d="M714 86h348" stroke="#3e6875"/>
+    <circle cx="737" cy="67" r="4" fill="#5eead4"/>
+    <circle cx="753" cy="67" r="4" fill="#ffc782"/>
+    <circle cx="769" cy="67" r="4" fill="#6d8799"/>
+    <text x="1038" y="72" text-anchor="end" fill="#b8d0db" font-family="Consolas, monospace" font-size="13">git log --graph</text>
+    <path d="M745 170h286" fill="none" stroke="#5eead4" stroke-width="3" stroke-linecap="round"/>
+    <path d="M797 170c27 0 34-40 62-40h63c26 0 34 40 61 40" fill="none" stroke="#ffc782" stroke-width="3"/>
+    <g fill="#101e2c" stroke-width="3">
+      <g stroke="#5eead4">
+        <circle cx="752" cy="170" r="6"/><circle cx="797" cy="170" r="6"/>
+        <circle cx="895" cy="170" r="6"/><circle cx="983" cy="170" r="6"/><circle cx="1024" cy="170" r="6"/>
+      </g>
+      <g stroke="#ffc782"><circle cx="859" cy="130" r="6"/><circle cx="922" cy="130" r="6"/></g>
+    </g>
+    <text x="897" y="113" text-anchor="middle" fill="#ffc782" font-family="Consolas, monospace" font-size="13">feature</text>
+    <text x="1030" y="203" text-anchor="end" fill="#a8f6e9" font-family="Consolas, monospace" font-size="13">main</text>
+  </g>
+</svg>
